@@ -1,0 +1,115 @@
+# Python Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Python Cache & Build
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Pytest & Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.vs/
+
+# Environment Variables
+.env.local
+.env.*.local
+.env
+
+# Node.js Dependencies & Build
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Frontend Build Output
+frontend/dist/
+frontend/build/
+
+# Backend FAISS Index & Chunks (Large Generated Files)
+backend/chunks.pkl
+backend/faiss_index.bin
+backend/chunks.pkl.bak
+backend/faiss_index.bin.bak
+
+# Backend Documents Folder
+backend/docs/
+
+# Logs
+*.log
+logs/
+
+# Temporary Files
+*.tmp
+*.temp
+.tmp/
+
+# OS Generated Files
+Thumbs.db
+.DS_Store
+*.swp
+*.swo
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache Directories
+.cache/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# IDE Generated Files
+.vscode/settings.json
+.vscode/launch.json
+*.pyc
+
+# ESLint Cache
+.eslintcache
+
+# Misc
+.DS_Store
+*.pem
+*.key
