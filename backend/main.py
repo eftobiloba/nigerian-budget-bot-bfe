@@ -17,7 +17,7 @@ EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 CHUNK_SIZE = 500
 TOP_K = 3
 GEMINI_MODEL = "gemini-2.5-flash-preview-05-20"
-API_KEY = "AIzaSyCxqn3gMIfrR1Ya8hGuZyt4HaqsQNbLyvA"
+API_KEY = ""
 INDEX_FILE = "faiss_index.bin"
 CHUNKS_FILE = "chunks.pkl"
 
